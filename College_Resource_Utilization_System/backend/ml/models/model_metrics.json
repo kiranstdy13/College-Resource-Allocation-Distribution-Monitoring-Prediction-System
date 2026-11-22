@@ -1,0 +1,43 @@
+{
+  "dataset_size": 1800,
+  "training_samples": 1440,
+  "test_samples": 360,
+  "selected_model": "Gradient Boosting Regressor",
+  "metrics": {
+    "Linear Regression (Baseline)": {
+      "mae": 2.605,
+      "rmse": 3.311,
+      "r2": 0.9706,
+      "algorithm": "Linear Regression (Baseline)"
+    },
+    "Random Forest Regressor": {
+      "mae": 1.37,
+      "rmse": 1.649,
+      "r2": 0.9927,
+      "algorithm": "Random Forest Regressor"
+    },
+    "Gradient Boosting Regressor": {
+      "mae": 1.357,
+      "rmse": 1.603,
+      "r2": 0.9931,
+      "algorithm": "Gradient Boosting Regressor"
+    }
+  },
+  "features": [
+    "department_id",
+    "resource_id",
+    "category",
+    "cycle_number",
+    "student_strength",
+    "student_growth_pct",
+    "prev_requested_quantity",
+    "prev_approved_quantity",
+    "prev_actual_usage",
+    "unused_quantity",
+    "damaged_quantity",
+    "historical_additional_requests",
+    "central_available_stock",
+    "utilization_rate",
+    "students_per_resource"
+  ]
+}
